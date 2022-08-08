@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import plasmatorch from './images/plasmatorch.jpg'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='textaligncenter'>
+			<h1>
+				Future home of <strong>FAB²</strong>
+			</h1>
+			<div>
+				a <strong>DARK WATER CUSTOMS</strong> company
+			</div>
+			<img src={plasmatorch} alt='logo' />
+			<div>
+				If you are a <strong>visitor</strong>, check back soon.
+			</div>
+		</div>
+	)
 }
 
-export default App;
+export default App
